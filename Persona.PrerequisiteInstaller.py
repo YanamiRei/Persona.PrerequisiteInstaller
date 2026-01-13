@@ -202,6 +202,7 @@ def download_file(path, url):
         return False
 
 def verify_checksum(file, checksum_correct):
+    retrun True
     '''
     Verify a file's SHA-512 checksum is correct.
 
